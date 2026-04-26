@@ -1,4 +1,5 @@
 Flask
 numpy
-scikit-fuzzy
 scipy
+networkx
+scikit-fuzzy

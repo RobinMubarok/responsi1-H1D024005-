@@ -1,4 +1,9 @@
 import os
+import sys
+
+# Pastikan path saat ini terbaca oleh Vercel agar bisa import ParaDokter
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from flask import Flask, render_template, request
 import numpy as np
 import skfuzzy as fuzz
